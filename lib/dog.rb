@@ -1,5 +1,4 @@
 class Dog
-  attr_reader name:
 
   @@all = []
 
@@ -7,5 +6,8 @@ class Dog
     @name = name
     @@all << self
   end
+
+  def name
+    @nameend
 
 end
